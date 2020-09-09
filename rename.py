@@ -99,4 +99,4 @@ while True:
     print("当前检测地址为{} ---->DNS解析地址为:".format(URL),j.address)
     #关闭文件及Curl对象
     indexfile.close()
-    pcu.close()
+    pcu。关闭（）
