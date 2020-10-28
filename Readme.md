@@ -10,3 +10,21 @@ Email：ailunbolinkenasi@gmail.com
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
+## 1.部署开始
+
+### Windows用户
+
+https://download.lfd.uci.edu/pythonlibs/x2tqcw5k/cp34/pycurl-7.43.1-cp34-cp34m-win_amd64.whl
+
+并且将文件重命名为 `pycurl-7.43.1-cp37-abi3-win_amd64.whl`然后放到桌面
+
+此方法只针对于Python3.8.6
+
+```cmd
+ pip install .\Desktop\pycurl-7.43.1-cp37-abi3-win_amd64.whl 
+```
+
+```cmd
+pip debug --verbose # 查看pip支持的版本
+```
+
