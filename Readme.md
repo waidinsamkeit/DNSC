@@ -18,7 +18,7 @@ https://download.lfd.uci.edu/pythonlibs/x2tqcw5k/cp34/pycurl-7.43.1-cp34-cp34m-w
 
 并且将文件重命名为 `pycurl-7.43.1-cp37-abi3-win_amd64.whl`然后放到桌面
 
-此方法只针对于Python3.8.6
+此方法只针对于Python3.x 由于
 
 ```cmd
  pip install .\Desktop\pycurl-7.43.1-cp37-abi3-win_amd64.whl 
@@ -26,9 +26,4 @@ https://download.lfd.uci.edu/pythonlibs/x2tqcw5k/cp34/pycurl-7.43.1-cp34-cp34m-w
 
 ```cmd
 pip debug --verbose # 查看pip支持的版本
-```
-
-### Python3.6以下的版本直接安装即可
-```cmd
-pip install pycurl
 ```
