@@ -28,3 +28,7 @@ https://download.lfd.uci.edu/pythonlibs/x2tqcw5k/cp34/pycurl-7.43.1-cp34-cp34m-w
 pip debug --verbose # 查看pip支持的版本
 ```
 
+### Python3.6以下的版本直接安装即可
+```cmd
+pip install pycurl
+```
